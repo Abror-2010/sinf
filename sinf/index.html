@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Asosiy</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <nav class="navbar">
+    <h1 class="logo">Zapal.<strong>hub</strong></h1>
+    <div class="menu-icon" onclick="openMenu()">☰</div>
+</nav>
+
+<div id="mobileMenu" class="mobile-menu">
+    <span class="close-btn" onclick="closeMenu()">✖</span>
+    <ul>
+        <li><a href="index.html">Asosiy</a></li>
+        <li><a href="rahmatillo.html">Rahmatillo</a></li>
+        <li><a href="abror.html">Abror</a></li>
+        <li><a href="moydin.html">Moydin</a></li>
+        <li><a href="muhammadamin.html">Muhammadamin</a></li>
+        <li><a href="rahim.html">Rahim</a></li>
+        <li><a href="azam.html">Azam</a></li>
+        <li><a href="olim.html">Olim</a></li>
+        <li><a href="boshqalar.html">Boshqalar</a></li>
+    </ul>
+</div>
+
+    <section class="content">
+        <h1>Bu sayt orqali siz 9-B sinf oquvchilar rasm va videolarni korsangiz boladi</h1>
+    </section>
+
+
+<script>
+function openMenu() {
+    const menu = document.getElementById("mobileMenu");
+    if(menu) menu.classList.add("active");
+}
+
+function closeMenu() {
+    const menu = document.getElementById("mobileMenu");
+    if(menu) menu.classList.remove("active");
+}
+</script>
+</body>
+</html>
